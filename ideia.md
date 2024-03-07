@@ -10,10 +10,20 @@ Locais de apoio: CAPS, centros de atendimento psicológico, grupos de apoio.
 Pontos de iluminação pública: Iluminação e segurança.
 Dados de geolocalização: Crimes, acidentes, poluição sonora.
 
+Estudos sobre saúde mental e geolocalização: https://pubmed.ncbi.nlm.nih.gov/.
+Organizações de apoio à saúde mental: https://www.abp.org.br/.
+Dados informacionais Geral: http://www.ipeadata.gov.br/Default.aspx 
+
 ## Ideia de Dashboard  
 
 Um mapa do Brasil, aonde mostra as regiões com mais registros de depressão, relacionados e dados como, ide, nível de escolarização, desemprego, taxa de crimes etc. 
 Tendo o mapa podemos estudar aonde focar campanhas de publicidade e redes de apoio.
+
+vamos usa:
+
+https://observablehq.com/@d3/zoom-to-bounding-box?intent=fork
+
+Para ter dados mais focados em cada região.
 
 ## Etapa do desenvolvimento 
 
