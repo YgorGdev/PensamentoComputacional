@@ -1,7 +1,7 @@
 class Pessoa:
-    def __init__(self, nome, cpf, telefone, endereco):
+    def __init__(self, nome, documento, telefone, endereco):
         self.nome = nome
-        self.cpf = cpf
+        self.documento = documento
         self.telefone = telefone
         self.endereco = endereco
 
@@ -39,15 +39,15 @@ def menu_principal():
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        paciente = cadastrar_paciente()
-        menu_principal()
+        cadastrar_paciente()
     elif opcao == "2":
-        psicologo = cadastrar_psicologo()
-        menu_principal()
+        cadastrar_psicologo()
     elif opcao == "3":
         print("Saindo...")
+        return
     else:
         print("Opção inválida! Tente novamente.")
-        menu_principal()
 
+    menu_principal()
+    
 menu_principal()
